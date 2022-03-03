@@ -44,16 +44,8 @@ fn test_escaping() {
 
 #[test]
 fn test_escaping_mid_hyphens() {
-    let md = parse_html(r#"<h2>zhangkai This is a header with-hyphen!</h2>"#);
-    
-    println!("ssss====00000 {}.", md);
-
-    let md2: String = parse_html("<h1>“How-to” Guides</h1>");
-
-    println!("ssss====11111 {}.", md2);
-
-
-    assert_eq!(md, "# zhangkai This is a header with-hyphen!")
+    let md = parse_html(r#"<h1>This is a header with-hyphen!</h1>"#);
+    assert_eq!(md, "# This is a header with-hyphen!")
 }
 
 // #[test]

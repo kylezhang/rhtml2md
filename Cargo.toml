@@ -1,5 +1,5 @@
 [package]
-name = "_html2md"
+name = "rhtml2md"
 version = "0.2.13"
 edition = "2018"
 authors = ["Oleg `Kanedias` Chernovskiy <kanedias@house-of-maker.online>"]
