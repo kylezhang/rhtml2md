@@ -1,6 +1,6 @@
 [package]
 name = "rhtml2md"
-version = "0.2.13"
+version = "0.0.1"
 edition = "2018"
 authors = ["`KyleZhang` <succpeking@hotmail.com>"]
 
