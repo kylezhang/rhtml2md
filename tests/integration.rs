@@ -1,7 +1,7 @@
-extern crate html2md;
+extern crate rhtml2md;
 extern crate spectral;
 
-use html2md::parse_html;
+use rhtml2md::parse_html;
 use std::fs::File;
 use std::io::prelude::*;
 

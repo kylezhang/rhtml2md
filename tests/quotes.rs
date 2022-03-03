@@ -1,6 +1,6 @@
-extern crate html2md;
+extern crate rhtml2md;
 
-use html2md::parse_html;
+use rhtml2md::parse_html;
 use pretty_assertions::assert_eq;
 use indoc::indoc;
 

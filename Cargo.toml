@@ -16,7 +16,7 @@ github = { repository = "kylezhang/rhtml2md", branch = "main" }
 maintenance = { status = "experimental" }
 
 [lib]
-name = "html2md"
+name = "rhtml2md"
 crate-type = ["rlib", "dylib", "staticlib"]
 
 [dependencies]

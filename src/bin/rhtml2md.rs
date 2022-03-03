@@ -1,4 +1,4 @@
-extern crate html2md;
+extern crate rhtml2md;
 
 use std::io::{self, Read};
 
@@ -8,5 +8,5 @@ fn main() {
     let mut handle = stdin.lock();
 
     handle.read_to_string(&mut buffer).expect("Must be readable HTML!");
-    println!("{}", html2md::parse_html(&buffer));
+    println!("{}", rhtml2md::parse_html(&buffer));
 }
