@@ -12,7 +12,7 @@ categories = ["development-tools", "parsing", "parser-implementations"]
 license = "GPL-3.0+"
 
 [badges]
-github = { repository = "kylezhang/rhtml2md", branch = "master" }
+github = { repository = "kylezhang/rhtml2md", branch = "main" }
 maintenance = { status = "experimental" }
 
 [lib]
