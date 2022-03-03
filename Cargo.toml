@@ -2,7 +2,7 @@
 name = "rhtml2md"
 version = "0.2.13"
 edition = "2018"
-authors = ["Oleg `Kanedias` Chernovskiy <kanedias@house-of-maker.online>"]
+authors = ["`KyleZhang` <succpeking@hotmail.com>"]
 
 description = "Library and binary to convert simple html documents into markdown"
 repository = "https://github.com/kylezhang/rhtml2md"
